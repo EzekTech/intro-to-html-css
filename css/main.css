@@ -42,7 +42,7 @@ a {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -51,24 +51,24 @@ section {
   padding: 5em 2em;
 }
 
-section .hero {
+.hero {
   text-align: center;
 }
 
-section .left-col {
+.left-col .subhead {
   text-transform: uppercase;
   font-weight: bold;
   color: grey;
   letter-spacing: .3em;
 }
 
-section h1 {
+.left-col h1 {
   font-size: 2.5em;
   line-height: 1.3em;
   margin-top: .2em;
 }
 
-section .primary-cta {
+.left-col .primary-cta {
   background: var(--primary-color);
   color: white;
   text-decoration: none;
@@ -79,22 +79,21 @@ section .primary-cta {
   display: inline-block;
 }
 
-section .watch-video-cta {
+.left-col .watch-video-cta {
   display: block;
   margin-top: 1em;
 }
 
-section .watch-video-cta img {
-  margin-right: .5em;
+.left-col .watch-video-cta img {
+  margin-right: 1em;
 }
 
-section .hero-img {
+.hero-img {
   width: 70%;
   margin-top: 3em;
 }
 
-section section.features-section {
-  background-color: #20272E;
+.section.features-section {
   color: white;
 }
 /*# sourceMappingURL=main.css.map */
